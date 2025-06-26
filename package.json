@@ -1,0 +1,30 @@
+{
+  "name": "smg-cloud-automation",
+  "version": "2.0.0",
+  "description": "SMG Cloud Automation Pipeline - Phase 2 Modular Components",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "moment": "^2.29.4",
+    "@supabase/supabase-js": "^2.38.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["smg", "automation", "pipeline", "scraping", "supabase"],
+  "author": "SMG Automation Team",
+  "license": "MIT"
+}
